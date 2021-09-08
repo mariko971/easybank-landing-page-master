@@ -181,6 +181,7 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #f4f5f763;
 }
 
 .articles-wrapper-header{
@@ -194,8 +195,8 @@ a{
     width: 327px;
     height: 395px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(128, 128, 128, 0.137);
     margin-bottom: 1.5rem;
+    background-color: #fff;
 }
 .article-main-img{
     width: 100%;
@@ -356,14 +357,19 @@ footer{
     }
     .hero-img{
         background: none;
+        background: url('./images/image-mockups.png') no-repeat;
+        background-position: 450% 80%;
+        background-size: 95%;
         width: 50%;
         position: absolute;
-        right: -120px;
+        right: 0;
         z-index: 1;
+        overflow-x: hidden;
        }
 
        #mockups{
            margin-top: 8em;
+           opacity: 0;
        }
        .hero-title{
            width: 447px;
