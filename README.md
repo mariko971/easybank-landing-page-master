@@ -26,8 +26,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshots/Easybank landing page mobile.png)
-![](./screenshots/Easybank landing page desktop.png)
+![./screenshots/Easybank landing page mobile.png]()
+![./screenshots/Easybank landing page desktop.png]()
+
 
 ### Links
 
