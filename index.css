@@ -18,6 +18,9 @@ p, li{
     color: #9597A5;
 }
 
+a{
+    text-decoration: none;
+}
 
 
 .header{
@@ -127,6 +130,13 @@ p, li{
     justify-content: center;
     margin-top: 2rem;
 }
+.hero-title-btn a{
+    color: #fff;
+}
+
+.header-btn{
+    display: none;
+}
 
 .btn{
     text-align: center;
@@ -235,6 +245,13 @@ footer{
     row-gap: 2rem;
 }
 
+.logo-socials{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 1.5rem;
+}
+
 .social-icons{
     display: flex;
 }
@@ -264,6 +281,10 @@ footer{
 }
 
 .footer-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1.5rem;
     margin-top: 0;
     font-size: 14px;
 }
@@ -274,4 +295,232 @@ footer{
     line-height: 26px;
 }
 
+@media screen and (min-width:768px){
+
+    .header-wrapper{
+        background: #fff;
+    }
+    .header{
+        width: 100%;
+        margin: 0 auto;
+        z-index: 2;
+        background: #fff;
+        padding: 16px 165px;
+    }
+    .header-nav{
+        display: none;
+    }
+    .nav-dropdown{
+        display: block;
+        position: static;
+        height: auto;
+        /* width: 600px; */
+        background: none;
+    }
+    .dropdown-wrapper{
+        position: static;
+        width: 800px;
+        height: auto;
+        background: none;
+        transform: none;
+    }
+    .nav-links{
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 330px;
+    }
+    .nav-links li a{
+        font-size: 14px;
+        color: #9597A5;
+    }
+    .cross-icon{
+        display: none;
+    }
+    .header-btn{
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+        font-size: 14px;
+    }
+    .hero{
+        position: relative;
+        height: 65vh;
+        background: url('./images/bg-intro-desktop.svg') no-repeat;
+        background-position: 350% 60%;
+        background-color: #f4f5f763;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .hero-img{
+        background: none;
+        width: 50%;
+        position: absolute;
+        right: -120px;
+        z-index: 1;
+       }
+
+       #mockups{
+           margin-top: 8em;
+       }
+       .hero-title{
+           width: 447px;
+           height: 316px;
+           margin-left: 8rem;
+       }
+       .hero-title-header, .hero-title-txt{
+           text-align: left;
+       }
+       .hero-title-header{
+           font-size: 56px;
+           line-height: 64px;
+           letter-spacing: -1px;
+       }
+
+       .hero-title-txt{
+            font-size: 18px;
+            line-height: 28px;
+            letter-spacing: -0.28px;
+            padding: 0;
+       }
+
+       .hero-title-btn{
+           font-size: 14px;
+           line-height: 28px;
+           justify-content: left;
+       }
+
+       .why-easy-bank{
+        padding: 5rem 165px;
+        text-align: left;
+        }
+        
+        .why-title{
+            font-size: 40px;
+            letter-spacing: -0.71px;
+            line-height: 64px;
+            margin-bottom: 1rem;
+        }
+        .why-title-txt{
+            font-size: 18px;
+            letter-spacing: -0.28px;
+            line-height: 28px;
+            width: 530px;
+        }
+
+        .why-articles-wrapper{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 2rem;
+        }
+        .article-title{
+            font-size: 24px;
+            letter-spacing: -0.43px;
+            line-height: 28px;
+            margin: 2rem 0;
+        }
+
+        .article-txt{
+            font-size: 16px;
+            letter-spacing: -0.25px;
+            line-height: 26px;
+            width: 255px;
+        }
+
+        .articles-wrapper {
+            padding: 5rem 165px;
+            display: block; 
+            background: #f4f5f763;
+        }
+        .articles-wrapper-header {
+            font-size: 40px;
+            letter-spacing: -0.71px;
+            line-height: 64px;
+            text-align: left;
+            margin-bottom: 2.5rem;
+        }
+
+        .article-main-wrapper{
+            display: flex;
+            justify-content: space-between;
+        }
+        .article-main{
+            width: 255px;
+            height: 395px;
+            box-shadow: none;
+            margin-bottom: 0;
+            background: #fff;
+        }
+        .article-main-author{
+            font-size: 10px;
+            line-height: 18px;
+            letter-spacing: -0.16px;
+        }
+        .article-main-title{
+            font-size: 16px;
+            line-height: 20px;
+            letter-spacing: -0.29px;
+        }
+        .article-main-txt{
+            font-size: 13px;
+            line-height: 18px;
+            letter-spacing: -0.2px;
+            width: 207px;
+        }
+
+        footer{
+            padding: 40px 165px;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .logo-socials{
+            height: 100%;
+            row-gap: 3rem;
+            text-align: left;
+        }
+        .footer-btn{
+            align-items: end;
+        }
+        .links-wrapper {
+            width: 164px;
+        }
+
+        .footer-nav ul{
+            width: 320px;
+            display: grid;
+            margin-right: 10rem;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: repeat(3, 1fr);
+            grid-template-areas: 
+            "about careers"
+            "contact support"
+            "blog privacy";
+        }
+        .footer-nav li{
+            margin-bottom: .7rem;
+        }
+        #about{
+            grid-area: about;
+        }
+        #contact{
+            grid-area: contact;
+        }
+        #blog{
+            grid-area: blog;
+        }
+        #support{
+            grid-area: support;
+        }
+        #careers{
+            grid-area: careers;
+        }
+        #privacy{
+            grid-area: privacy;
+        }
+        .footer-nav li{
+            text-align: left;
+        }
+}
 
