@@ -26,13 +26,14 @@ Users should be able to:
 
 ### Screenshot
 
-![imageUrl]()
+![./screenshots/Easybank landing page mobile.png]()
+![./screenshots/Easybank landing page desktop.png]()
 
 
 ### Links
 
 - Solution URL: [https://github.com/mariko971/easybank-landing-page-master.git]()
-- Live Site URL: [livesiteUrl]()
+- Live Site URL: [https://mariko971.github.io/easybank-landing-page-master/]()
 
 ## My process
 
@@ -41,6 +42,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- CSS grid
 - Mobile-first workflow
 
 
